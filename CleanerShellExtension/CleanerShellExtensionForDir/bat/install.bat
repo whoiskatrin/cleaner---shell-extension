@@ -1,0 +1,1 @@
+C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f & cd C:\Program Files\whoiskatrin\CleanerShellExtensionForDir & c:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /codebase  CleanerShellExtension.dll
